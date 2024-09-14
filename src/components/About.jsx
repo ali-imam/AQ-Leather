@@ -9,7 +9,7 @@ function About() {
       data-scroll-speed="0.01"
       className="w-full bg-[#1d1f1e] rounded-t-3xl py-10 sm:py-20"
     >
-      <div className="container w-full">
+      <div id="about" className="container w-full">
         <h1 className="sm:text-3xl text-xl sm:leading-normal font-medium mb-10 border-b-[1px] border-zinc-700 pb-10">
           AQ Leather is a strategic partner for fast-grow­ing tech businesses
           that need to raise funds, sell products, explain complex ideas, and
@@ -31,7 +31,7 @@ function About() {
           </div>
           <img
             className="w-full rounded-3xl mt-10 md:w-[40vw] md:mt-0"
-            src="./src/assets/images/about.jpg"
+            src="about.jpg"
             alt="about us"
           />
         </div>

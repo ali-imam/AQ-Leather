@@ -27,7 +27,7 @@ function Eyes() {
         data-scroll
         data-scroll-section
         data-scroll-speed="-0.5"
-        src="/src/assets/images/bgv.mp4"
+        src="bgv.mp4"
         className="w-full h-full object-cover"
         autoPlay
         loop

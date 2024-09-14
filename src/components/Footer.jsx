@@ -1,16 +1,16 @@
 import React from "react";
-import Logo from "../assets/images/logo.png";
+// import Logo from "../assets/images/logo.png";
 import { FaArrowUpLong } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="w-full h-fit bg-[#1d1f1e]">
+    <div id="contact" className="w-full h-fit bg-[#1d1f1e]">
       <div className="container md:flex-row flex flex-col py-10">
         <div className="md:w-1/2 w-full flex flex-col gap-10 justify-between">
           <h1 className="font-FoundersGroteskCondensed uppercase text-6xl">
             Hand- <br /> Crafted
           </h1>
-          <img src={Logo} className="w-16 hidden md:block" alt="ochi logo" />
+          <img src="logo.png" className="w-16 hidden md:block" alt="ochi logo" />
         </div>
         <div className="md:w-1/2 w-full flex flex-col justify-between gap-5">
           <div className="links flex flex-col font-NueueMontreal mt-10 md:mt-0">

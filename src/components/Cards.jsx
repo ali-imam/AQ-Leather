@@ -5,7 +5,7 @@ function Cards() {
     <div className="container w-full flex flex-col md:flex-row gap-5 py-20">
       <div className="card relative flex items-center justify-center lg:w-1/2 md:w-full h-96 bg-[#004D43] rounded-xl">
         <img
-          src="./src/assets/images/logo.png"
+          src="logo.png"
           alt="ochi"
           className="w-[25%]"
         />

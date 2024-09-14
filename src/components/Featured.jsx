@@ -17,7 +17,7 @@ function Featured() {
     });
   };
   return (
-    <div className="container w-full sm:pt-20 pt-10">
+    <div id="products" className="container w-full sm:pt-20 pt-10">
       <div className="w-full border-b-[1px] border-zinc-700 pb-5">
         <h1 className="text-4xl sm:text-6xl">Our Products</h1>
       </div>
@@ -46,7 +46,7 @@ function Featured() {
             </h1>
             <img
               className="w-full h-full object-cover hover:scale-105 transition-all"
-              src="./src/assets/images/men.jpg"
+              src="men.jpg"
               alt="featured"
             />
           </div>
@@ -75,7 +75,7 @@ function Featured() {
             </h1>
             <img
               className="w-full h-full object-cover hover:scale-105 transition-all"
-              src="./src/assets/images/women.jpg"
+              src="women.jpg"
               alt="featured"
             />
           </div>
